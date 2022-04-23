@@ -58,4 +58,17 @@ public class Counter {
 		}
 		return cantPares;
 	}
+	
+	
+	// Ejercicio 3
+	public int numeroMasAlto(int x, int y) {
+		int masAlto = 1000;
+		while (!((masAlto % x == 0) && (masAlto % y == 0))) {
+			masAlto--;
+			if (masAlto == 0) {
+				return -1;
+			}
+		}
+		return masAlto;
+	}
 }

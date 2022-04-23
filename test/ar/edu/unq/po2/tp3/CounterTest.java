@@ -49,5 +49,14 @@ class CounterTest {
 	public void cantidadDePares() {
 		assertEquals(counter.cantDigitosPares(422),3);
 	}
-
+	
+	// Ejercicio 3
+	@Test
+	public void testNumeroMasAlto() {
+		assertEquals(counter.numeroMasAlto(3, 9),999);
+	}
+	@Test
+	public void testNumeroMasAltoNot() {
+		assertEquals(counter.numeroMasAlto(200, 111),-1);
+	}
 }

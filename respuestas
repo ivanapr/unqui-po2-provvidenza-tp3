@@ -1,0 +1,36 @@
+4. Examinar las expresiones
+
+Dado el siguiente código:
+String a = "abc";
+String s = a;
+String t;
+
+Indique qué valores retornan las siguientes expresiones o, si dan error, por qué se producen:
+
+s.length() 		-> retorna 3
+t.length()	 	-> retorna error porque su valor es null. No fue inicializado.
+1 + a      		-> retorna "1abc".
+a.toUpperCase() -> retorna "ABC".
+"Libertad".indexOf("r")	-> retorna 4.
+"Universidad".lastIndexOf('i') -> retorna 7.
+"Quilmes".substring(2,4) retornará "lm".
+(a.length() + a).startsWith("a") -> retorna false, arranca con 3 (el largo de la cadena de caracteres a).
+s == a -> retorna true.
+a.substring(1,3).equals("bc") -> retorna true.
+
+
+5. Tipos primitivos
+
+1) ¿Qué son los tipos de datos primitivos?
+- Son predefinidos por el lenguaje de programación y son nombrados por una palabra reservada. Los valores primitivos no comparten estado con otros valores primitivos.
+
+2) ¿Cuál es la diferencia entre un int y un Integer?
+- Un int es un tipo primitivo, o sea es un tipo de datos especiales integrados en el lenguaje. Un Integer es un tipo literal, es la representación en código fuente de un valor fijo y se representan directamente en su código sin necesidad de cálculo. Son objetos creados a partir de una clase.
+
+3) ¿Si se define una variable de instancia de tipo int cual sería su valor predeterminado? ¿Y si se
+define una de tipo Integer? Haga la prueba en Eclipse.
+- Valor predeterminado de tipo int: 0
+- Valor predeterminado del tipo Integer: null
+
+4) Responder la pregunta del punto anterior (3), pero ahora en lugar de definir una variable de
+instancia se define una variable de método

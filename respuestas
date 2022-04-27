@@ -34,3 +34,15 @@ define una de tipo Integer? Haga la prueba en Eclipse.
 
 4) Responder la pregunta del punto anterior (3), pero ahora en lugar de definir una variable de
 instancia se define una variable de método
+
+
+7. Jerarquía de paquetes
+
+Cree una clase que se encuentre en el paquete model, otra clase que se encuentre en el paquete model.gui y
+otra que se encuentre en el paquete model.stack . Compílelas utilizando la forma que crea conveniente.
+
+1. ¿Cómo están organizadas en el sistema de archivos?
+- En el sistema de archivos de GitHub, model.gui y model.stack son subcarpetas de la carpeta model. Cada clase aparece en la carpeta que le corresponde.
+2. ¿Encuentra alguna relación entre el nombre del paquete y la ubicación de los archivos fuentes de las
+clases (.java) y los archivos compilados (.class)?
+- Si hay relación. Cada archivo se encuentra dentro del correspondiente camino de carpetas debido a que cada nombre entre puntos es una carpeta nueva.

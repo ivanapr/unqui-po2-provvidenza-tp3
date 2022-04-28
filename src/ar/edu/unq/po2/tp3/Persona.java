@@ -3,8 +3,8 @@ package ar.edu.unq.po2.tp3;
 import java.time.LocalDate;
 
 public class Persona {
-	public String nombre;
-	public LocalDate fechaDeNacimiento;
+	private String nombre;
+	private LocalDate fechaDeNacimiento;
 	
 	public Persona(String nombre, LocalDate fechaDeNacimiento) {
 		this.setNombre(nombre);
